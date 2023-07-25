@@ -1,0 +1,19 @@
+.todos {
+  width: 50%;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  overflow: auto;
+  height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  transition: all 0.6s;
+}
+
+.todos:hover {
+  box-shadow: 5px 5px 5px indigo;
+}
